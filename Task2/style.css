@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	margin-top:0px;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+	flex-wrap:wrap;
+	gap:30px 40px;
+	height:100vh;
+}
+
+#srch{
+	position:relative;
+}
+#srch #txt{
+
+display:block;
+width:584px;
+height:46px;
+margin:20px;
+padding-left: 2.7rem;
+border-radius:24px;
+border:1px solid #dfe1e5;
+}
+#srch #search{
+	
+	position:absolute;
+	top:34px;
+	left:33px;
+	
+	
+}
+#srch #lens{
+	position:absolute;
+	top:30px;
+	right:33px;
+	
+}
+.btn-Srch{
+	display:flex;
+	justify-content: center;
+	gap:40px;
+	
+	
+}
+.btn-Srch1{
+	display:inline;
+	width:8rem;
+	height:2rem;
+	text-decoration: none;
+	
+}
+	
+#Aws{
+	
+	font-size: 17px;
+}
+#Aws img{
+	position:relative;
+	top:15px;
+	padding-right:5px;
+	}
+#lan a{
+	text-decoration:none;
+	padding-left: 5px;
+}
